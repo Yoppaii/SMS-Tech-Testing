@@ -99,7 +99,7 @@
             this.label3.Location = new System.Drawing.Point(61, 105);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(65, 20);
+            this.label3.Size = new System.Drawing.Size(82, 25);
             this.label3.TabIndex = 12;
             this.label3.Text = "Receiver";
             // 
@@ -108,7 +108,7 @@
             this.txtReceiverNumber.Location = new System.Drawing.Point(295, 55);
             this.txtReceiverNumber.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtReceiverNumber.Name = "txtReceiverNumber";
-            this.txtReceiverNumber.Size = new System.Drawing.Size(187, 27);
+            this.txtReceiverNumber.Size = new System.Drawing.Size(187, 32);
             this.txtReceiverNumber.TabIndex = 11;
             // 
             // label2
@@ -117,7 +117,7 @@
             this.label2.Location = new System.Drawing.Point(291, 30);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(65, 20);
+            this.label2.Size = new System.Drawing.Size(82, 25);
             this.label2.TabIndex = 10;
             this.label2.Text = "Receiver";
             // 
@@ -137,8 +137,9 @@
             this.txtSenderNumber.Location = new System.Drawing.Point(65, 55);
             this.txtSenderNumber.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtSenderNumber.Name = "txtSenderNumber";
-            this.txtSenderNumber.Size = new System.Drawing.Size(187, 27);
+            this.txtSenderNumber.Size = new System.Drawing.Size(187, 32);
             this.txtSenderNumber.TabIndex = 8;
+            this.txtSenderNumber.Text = "+12315257470";
             // 
             // label1
             // 
@@ -146,13 +147,13 @@
             this.label1.Location = new System.Drawing.Point(61, 30);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(55, 20);
+            this.label1.Size = new System.Drawing.Size(71, 25);
             this.label1.TabIndex = 7;
             this.label1.Text = "Sender";
             // 
             // frmSendReminder
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(552, 412);
             this.Controls.Add(this.panel2);

@@ -8,7 +8,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
-using SMS_Tech_testing1.SMSTableAdapters;
 
 namespace SMS_Tech_testing1
 {
@@ -32,11 +31,7 @@ namespace SMS_Tech_testing1
 
         private void frmAppointment_Load(object sender, EventArgs e)
         {
-            tblAppointmentTableAdapter adpAppointment = new tblAppointmentTableAdapter();
-            SMS.tblAppointmentDataTable dtAppointment = new SMS.tblAppointmentDataTable(); 
-
-
-
+           
         }
 
         private void btnRemind_Click(object sender, EventArgs e)
